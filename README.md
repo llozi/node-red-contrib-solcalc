@@ -1,3 +1,5 @@
+# node-red-contrib-solcalc
+
 A node-red node that calculates the next upcoming sunrise or sunset for a given latitude/longitude and given date/time.
 
 Requires [https://github.com/llozi/noaa_solcalc](https://github.com/llozi/noaa_solcalc).
