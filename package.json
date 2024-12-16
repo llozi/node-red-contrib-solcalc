@@ -1,0 +1,22 @@
+{
+  "name": "node-red-contrib-solcalc",
+  "version": "1.0.0",
+  "description": "Delivers the date/time of the upcoming sunrise and sunset for a given latitude and longitude.",
+  "main": "solcalc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sunrise",
+    "sunset"
+  ],
+  "author": "Lukas Zimmermann",
+  "license": "ISC",
+  "private": true,
+  "node-red" : {
+    "nodes": {
+      "solcalc": "solcalc.js"
+    }
+  },
+  "dependencies": "noaa_solcalc"
+}
