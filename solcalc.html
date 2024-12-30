@@ -33,8 +33,27 @@
     and "longitude" (positive is west of Greenwich).
   </p>
   <p>
-    The output message is a json containing the properties "nextevent" with value of
-    either "rise" or "set" and "datetime" with a javascript Date object as it's value.
+    The output message is a JSON containing the properties "datetime",
+    "latitude" and "longitude" from the input plus "nextevent" and
+    "afternextevent" both of which are JSON objects including the fields
+    "event" with either "sunrise" or "sunset" as values and "datetime"
+    with a javascript Date object as it's value.
+  </p>
+  <h2>JSON output example:</h2>
+  <p>
+    <code>{
+  "datetime": "2024-12-30T16:05:05.480Z",
+  "latitude": 47.5,
+  "longitude": -7.5,
+  "nextevent": {
+     "event": "sunrise",
+     "datetime": "2024-12-31T07:17:48.000Z"
+   },
+   "afternextevent": {
+     "event": "sunset",
+     "datetime": "2024-12-31T15:48:45.000Z"
+   }
+}</code>
   </p>
 </script>
 
