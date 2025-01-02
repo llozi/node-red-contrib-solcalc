@@ -19,7 +19,7 @@
     }
   },
   "dependencies": {
-    "noaa_solcalc": ">=1.0.0"
+    "noaa_solcalc": ">=1.0.1"
   }
 }
 
