@@ -50,7 +50,7 @@ module.exports = function(RED) {
       };
       node.send(msg);
       if (done) {
-        // check that 'done' exists to be compatible earlier versions of Node-RED (<1.0)
+        // check that 'done' exists to be compatible with earlier versions of Node-RED (<1.0)
         done();
       }
     });
