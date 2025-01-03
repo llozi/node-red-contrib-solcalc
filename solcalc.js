@@ -1,4 +1,4 @@
-var sol = require('noaa_solcalc');
+var sol = require('../noaa_solcalc');
 
 module.exports = function(RED) {
 
